@@ -1,0 +1,50 @@
+.primary {
+  background-color: #03a9f4 !important;
+  border-color: #03a9f4 !important;
+}
+.error--text {
+  color: red !important;
+  caret-color: red !important;
+}
+.primary--text {
+  color: #03a9f4 !important;
+  caret-color: #03a9f4 !important;
+}
+.tertiary{
+  background-color: #f5f5f5 !important;
+  border-color: #f5f5f5 !important;
+}
+.secondary {
+  background-color: #eeeeee !important;
+  border-color: #eeeeee !important;
+}
+.accent--text {
+  color: #03a9f4 !important;
+  caret-color: #03a9f4 !important;
+}
+.selfdialog{
+  border-radius: 7px;
+  border-bottom: 5px solid #FFFFFF;
+  border-bottom-color: #03a9f4 !important;
+}
+.login_div{
+  border-radius: 7px;
+  border-bottom: 5px solid #FFFFFF;
+  border-bottom-color: #03a9f4 !important;
+}
+.ms-collapse-nav li.card a{
+  background-color:#03a9f4;
+  color: #FFFFFF;
+}
+.ms-collapse-nav li.card a.collapsed {
+  background-color: #eee;
+  color: #424242;
+}
+.ms-collapse-nav li a:hover, .ms-collapse-nav li a:focus, .ms-collapse-nav li a.active {
+  background-color: #03a9f4 !important;
+  color: #fff;
+}
+.ms-collapse-nav li.card ul a[data-v-8a54e678]:hover, .ms-collapse-nav li.card ul a[data-v-8a54e678]:focus, .ms-collapse-nav li.card ul a.active[data-v-8a54e678], .ms-collapse-nav li.card ul a.router-link-exact-active.router-link-active[data-v-8a54e678] {
+  background-color: #e0e0e0 !important;
+  color:  #03a9f4 !important;
+}

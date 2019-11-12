@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<style>
+    html,body{
+        padding:0px;
+        margin:0px;
+        width: 100%;
+        height:100%;
+    }
+</style>
+<script src="infoConfig.js"></script>
+<body>
+</body>
+<script type="application/javascript">
+    var html = "";
+    html += '<div style="padding-left:100px;margin:5px 0px;">'
+    html += '<div style="margin-left: -100px;float: left;width:100px;"><img src="img/logo.png" width="64"/></div>';
+    html += '<div style="float: left;width:100%;font-size:16px;">';
+    html += '<div>'+window.infoConfig.systemName+'</div>';
+    html += '<div style="margin-top: 15px;word-spacing:15px">'+window.infoConfig.info+'</div>';
+    html += '<div style="margin-top: 15px">'+window.infoConfig.currentVersion+'</div>';
+    html += '<div style="margin-top: 15px">'+window.infoConfig.phone+'</div>';
+    // html += '<div style="margin-top: 15px">'+window.infoConfig.qq+'</div>';
+    html += '<div style="margin-top: 15px">'+window.infoConfig.email+'</div>';
+    html += '</div>';
+    html += '<div style="clear: both"></div>';
+    html += '</div>';
+    // console.log(html);
+    document.body.innerHTML = html;
+</script>
+</html>

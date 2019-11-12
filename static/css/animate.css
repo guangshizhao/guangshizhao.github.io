@@ -1,0 +1,23 @@
+.animation-delay-5{
+    animation-delay:.5s!important
+}
+.zoomInDown{
+    animation-name:zoomInDown;
+    -webkit-animation-name:zoomInDown;
+}
+@keyframes zoomInDown{
+    0%{
+        -webkit-animation-timing-function:cubic-bezier(.55,.055,.675,.19);
+        -webkit-transform:scale3d(.1,.1,.1) translate3d(0,-1000px,0);
+        animation-timing-function:cubic-bezier(.55,.055,.675,.19);
+        opacity:0;
+        transform:scale3d(.1,.1,.1) translate3d(0,-1000px,0);
+    }
+    60%{
+        -webkit-animation-timing-function:cubic-bezier(.175,.885,.32,1);
+        -webkit-transform:scale3d(.475,.475,.475) translate3d(0,60px,0);
+        animation-timing-function:cubic-bezier(.175,.885,.32,1);
+        opacity:1;
+        transform:scale3d(.475,.475,.475) translate3d(0,60px,0)
+    }
+}
